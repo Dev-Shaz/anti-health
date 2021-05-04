@@ -38,6 +38,11 @@ Citizen.CreateThread(function()
     end
 end)
 
+--- Should stop cheaters spawning health bags on other players
+Citizen.CreateThread(function()
+    ToggleUsePickupsForPlayer(PlayerId(), "PICKUP_HEALTH_STANDARD", false)
+end)
+
 
 
 
