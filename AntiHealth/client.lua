@@ -20,9 +20,7 @@ function addhealth(value)
     SetEntityHealth(ped, value)
 end
 
-RegisterCommand("check", function()
-    print(healthtbl)
-end)
+
 
 Citizen.CreateThread(function()
     while true do 
