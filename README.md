@@ -3,11 +3,11 @@
 
 # HOW TO USE:
 
-Use this to set health exports["vrp"]:sethealth(amount)
+Use this to set health exports["AntiHealth"]:sethealth(amount)
 
-Use this to remove health exports["vrp"]:removehealth(amount)
+Use this to remove health exports["AntiHealth"]:removehealth(amount)
 
-Use this to add health exports["vrp"]:addhealth(amount)
+Use this to add health exports["AntiHealth"]:addhealth(amount)
 
 remember to put the value in
 
